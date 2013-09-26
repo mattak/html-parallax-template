@@ -1,0 +1,17 @@
+# swap
+
+*.swp
+*~
+.DS_Store
+
+# build
+
+dist/
+node_modules/
+.sass-cache/
+.gradle/
+
+# data
+
+_*.md
+

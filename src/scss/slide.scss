@@ -1,0 +1,42 @@
+div#preview {
+}
+
+section.slide {
+    position: absolute;
+    display: table;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+    // text
+    color: #777;
+    font-size: 30px;
+
+    background-color: #fff; // #323a45;
+
+    h1 {
+        color: #f97e76;
+
+        font-size: 60px;
+    }
+
+    h2 {
+        color: #444;
+    }
+
+    div.center {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    div.center {
+        > ol, > ul {
+            margin-left: 30%;
+        }
+    }
+}
